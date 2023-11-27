@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U9IrYJTnRSC61O7AZ3Ndg6f458QUiLXkZRwIMPnTXSjV31MLnU1iFk55zI77a+ui36CU3//Zf5ZH4sHop6ow4Q==",
+  "dgSpecHash": "h0DXgflfVZWKiD9dBjhV6xURtrc1cN6+OI4wL2KokEj85mFYBD+nVnlmNkMqRBte/p/EIUsuZnjEluHBmpylvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\Api.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,7 @@
     "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
-    "C:\\Users\\97254\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }
