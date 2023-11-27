@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\Api\\Api.csproj": {}
+    "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\Api\\Api.csproj": {
+    "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\Api.csproj",
         "packagesPath": "C:\\Users\\97254\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\Api\\obj\\",
+        "outputPath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\97254\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

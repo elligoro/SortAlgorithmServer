@@ -4,11 +4,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Api.Models;
+using Microsoft.OpenApi.Extensions;
+using System.Runtime.InteropServices;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Api.Controllers
-{   /*
+{
     [Route("api/[controller]")]
     [ApiController]
     public class SortController : ControllerBase
@@ -20,24 +25,15 @@ namespace Api.Controllers
             _sortBusiness = sortBusiness;
         }
 
-        // GET: api/<SortController>
         [HttpGet]
-        public async Task<IEnumerable<string>> Get()
+        [Route("sort-options")]
+        public Dictionary<string, int> GetSortSelections()
         {
-            var queryArr = Request.QueryString.Value.Split("&");
-            var type = "basic_sort";
-            foreach(var q in queryArr)
-            {
-                var qArr = q.Split("=");
-                if (qArr[0].Contains("type"))
-                {
-                    type = qArr[1];
-                    break;
-                }
-            }
+            SortOptionsEnum[] enumNames = Enum.GetValues<SortOptionsEnum>();
+            Dictionary<string, int> soDic = new Dictionary<string, int>();
+            Array.ForEach(enumNames, so =>soDic.Add(Enum.GetName(so), (int)so));
 
-            return await _sortBusiness.OperationTypeBy(type);          
+            return soDic;
         }
     }
-    */
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3XNOeRw0u1s8QnU9mSQTltdEJSfoewAhWG/ymfT8vn8PGgr3SnpYTDYDXFkoeIsADVM3JxW+AvCpdUvpg1CUsg==",
+  "dgSpecHash": "U9IrYJTnRSC61O7AZ3Ndg6f458QUiLXkZRwIMPnTXSjV31MLnU1iFk55zI77a+ui36CU3//Zf5ZH4sHop6ow4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\97254\\OneDrive\\מסמכים\\study\\algorithms\\1\\elementary_sort\\problems\\2\\Animation\\GitRepo\\SortAlgorithmServer\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\97254\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\97254\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\97254\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\97254\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
